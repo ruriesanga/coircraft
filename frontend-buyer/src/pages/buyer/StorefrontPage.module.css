@@ -1,0 +1,16 @@
+.page { padding-bottom: 56px; }
+.banner {
+  position: relative; background: linear-gradient(135deg,var(--coir-dark),#3D2010);
+  padding: 56px 64px; overflow: hidden; margin-bottom: 48px;
+}
+.bannerPattern {
+  position: absolute; inset: 0; opacity: 0.05;
+  background-image: repeating-linear-gradient(45deg,#D4A017 0,#D4A017 1px,transparent 0,transparent 40px);
+}
+.bannerContent { position: relative; z-index: 1; }
+.eyebrow { display:block; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:10px; }
+.bannerContent h1 { font-size:38px; color:var(--cream); margin-bottom:10px; }
+.bannerContent p { font-size:15px; color:rgba(255,255,255,0.65); }
+.section { margin-bottom: 48px; }
+.sectionTitle { font-size:24px; color:var(--coir-dark); margin-bottom:20px; padding-bottom:10px; border-bottom:2px solid var(--gold); display:inline-block; }
+.grid { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }

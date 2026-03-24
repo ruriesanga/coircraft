@@ -1,0 +1,13 @@
+.page { min-height:100vh; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--coir-dark),#1A0A00); }
+.card { background:#fff; border-radius:16px; padding:44px; width:100%; max-width:420px; box-shadow:0 20px 60px rgba(0,0,0,0.4); }
+.header { text-align:center; margin-bottom:28px; }
+.logo { font-size:48px; margin-bottom:8px; }
+.header h2 { font-size:26px; color:var(--coir-dark); margin-bottom:4px; }
+.header p { font-size:13px; color:var(--muted); }
+.form { display:flex; flex-direction:column; gap:18px; }
+.field { display:flex; flex-direction:column; gap:6px; }
+.field label { font-size:13px; font-weight:700; color:var(--coir-dark); }
+.btn { background:var(--coir-dark); color:var(--cream); border:none; border-radius:8px; padding:13px; font-size:15px; font-weight:700; transition:background 0.2s; }
+.btn:hover:not(:disabled) { background:var(--coir); }
+.btn:disabled { opacity:0.6; cursor:not-allowed; }
+.disclaimer { text-align:center; font-size:11px; color:var(--muted); margin-top:20px; line-height:1.6; }

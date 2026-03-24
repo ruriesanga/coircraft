@@ -1,0 +1,14 @@
+.pageTitle { font-size:26px; color:var(--coir-dark); margin-bottom:24px; }
+.metricRow { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:24px; }
+.metricCard { background:#fff; border-radius:12px; padding:24px; border:1px solid rgba(139,94,60,0.1); text-align:center; }
+.metricIcon { font-size:36px; margin-bottom:8px; }
+.metricValue { font-family:'Playfair Display',serif; font-size:28px; color:var(--coir-dark); font-weight:700; }
+.metricLabel { font-size:13px; color:var(--muted); margin-top:6px; text-transform:uppercase; letter-spacing:0.5px; }
+.metricSub { font-size:12px; color:var(--leaf); margin-top:4px; }
+.chartCard { background:#fff; border-radius:12px; padding:24px; border:1px solid rgba(139,94,60,0.1); }
+.chartHeader { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+.chartHeader h3 { font-size:16px; color:var(--coir-dark); font-family:'Lato',sans-serif; font-weight:700; }
+.chartControls { display:flex; gap:10px; }
+.chartControls select { width:auto; padding:7px 12px; font-size:13px; }
+.chart { min-height:300px; display:flex; align-items:center; }
+.noData { color:var(--muted); text-align:center; width:100%; padding:60px; }

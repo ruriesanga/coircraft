@@ -1,0 +1,18 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --coir: #8B5E3C; --coir-dark: #5C3A1E; --coir-light: #C9956C;
+  --leaf: #2D6A4F; --gold: #D4A017; --cream: #FDF6EC;
+  --text: #2C1A0E; --muted: #7A5C44; --white: #FFFFFF;
+  --sidebar: #1A0A00; --sidebar-text: rgba(255,255,255,0.75);
+}
+body { font-family: 'Lato', sans-serif; background: #F5EFE7; color: var(--text); }
+h1,h2,h3,h4 { font-family: 'Playfair Display', serif; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: 'Lato', sans-serif; }
+input, select, textarea {
+  font-family: 'Lato', sans-serif; border: 1px solid #d4b89a;
+  border-radius: 6px; padding: 10px 14px; font-size: 14px; width: 100%;
+  outline: none; background: #fff; transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--coir); }
+.error-msg { color: #C0392B; font-size: 12px; margin-top: 4px; }
